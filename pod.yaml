@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: jen-pod
+spec:
+  containers:
+    - name: xxxxx
+      image: nginx
