@@ -12,7 +12,7 @@ pipeline {
     stage('Deploy App') {
       steps {
         script {
-          kubernetesDeploy(configs: "nginx1.yaml", kubeconfigId: "mykubeconfig1")
+          kubernetesDeploy(configs: "nginx.yaml", kubeconfigId: "mykubeconfig1")
         }
       }
     }
